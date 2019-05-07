@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "projection": {
+            "type": "string",
+            "enum": [
+                "ANALYTICS_CLICKS",
+                "FULL"
+            ]
+        },
+        "key": {
+            "type": "string"
+        },
+        "oauth_token": {
+            "type": "string"
+        },
+        "prettyPrint": {
+            "type": "boolean",
+            "default": true
+        },
+        "quotaUser": {
+            "type": "string"
+        },
+        "userIp": {
+            "type": "string"
+        },
+        "start_token": {
+            "type": "string"
+        }
+    }
+}
